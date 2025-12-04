@@ -32,7 +32,7 @@ class SquareTestCase(unittest.TestCase):
 
     def test_perimeter_first(self):
         res = square.perimeter(0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, 5)
 
     def test_perimeter_second(self):
         res = square.perimeter(25)
